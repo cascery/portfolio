@@ -22,10 +22,10 @@ const Navbar = () => {
                 <Link to="/" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>Home</Link>
               </li>
               <li>
-                <Link to="/parent" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>projects</Link>
+                <Link to="/projects" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>projects</Link>
               </li>
               <li>
-                <Link to="/item3" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>resume</Link>
+                <Link to="/resume" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>resume</Link>
               </li>
             </ul>
           </div>
