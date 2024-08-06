@@ -1,4 +1,6 @@
 import julianImage from './assets/astronaut.png';
+import julian from './assets/julian.png';
+
 import avocatconnect from './assets/avocatconnect.png'
 import lucidlog from './assets/lucidlog.png'
 import bunnybuddies from './assets/bunnybuddies.png'
@@ -71,14 +73,14 @@ const Projects = () => {
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src={avocatconnect}
+            src={julian}
             alt="Astronaut"
             className="rounded-xl"
           />
         </figure>
         <div className="card-body items-center text-center text-black">
-          <h2 className="card-title">BunnyBuddies</h2>
-          <p>ask legal questions!request services from lawyers!</p>
+          <h2 className="card-title">julian blah blah</h2>
+          <p>blahb lah blah blah </p>
           <div className="card-actions">
             <button className="btn btn-primary">
               

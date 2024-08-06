@@ -62,7 +62,7 @@ const Information = () => (
                   <section className="mt-2 border-b-2 break-inside-avoid">
                     <header>
                       <h3 className="text-lg font-semibold text-custom-purple leading-snugish">
-                      Mohamed Cherif Messaadia University  
+                      top secret University  
                                            </h3>
                       <p className="leading-normal text-gray-300 text-md">
                         2021 &ndash; 2024 | Computer Science

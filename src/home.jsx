@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="card text-neutral-content w-96">
       
-          <h1 className="text-5xl text-white font-bold">Aya Kechroud </h1>
+          <h1 className="text-5xl text-white font-bold">cass Casablancas </h1>
           <p className="py-6 text-white">
          
     <blockquote>
