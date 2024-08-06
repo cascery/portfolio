@@ -27,6 +27,9 @@ const Navbar = () => {
               <li>
                 <Link to="/resume" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>resume</Link>
               </li>
+               <li>
+                <Link to="/about" style={{ color: 'black' }} onMouseEnter={(e) => e.target.style.color = '#CE88AA'} onMouseLeave={(e) => e.target.style.color = 'black'}>about</Link>
+              </li>
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost text-xl hidden lg:block hover:bg-custom-pink" style={{ color: 'black' }}>
