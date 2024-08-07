@@ -1,5 +1,13 @@
+
 @import url('./assets/fonts.css');
+.navbar-container, .routes-container {
+  position: relative; /* Ensure content appears above the background effect */
+  z-index: 2; /* Ensure it appears above */
+}
+
 .app-wrapper {
+  z-index: 2;
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 100vh; /* Full viewport height */
@@ -60,6 +68,7 @@ html, body {
   background-size: cover;
   font-family: 'CustomFont', sans-serif;
   color: white;
+  animation: animateBg 50s linear infinite;
 }
 
 #root {
@@ -159,3 +168,6 @@ h2{
   cursor: pointer;
   color:black
 }
+
+
+

@@ -62,7 +62,7 @@ const Information = () => (
                   <section className="mt-2 border-b-2 break-inside-avoid">
                     <header>
                       <h3 className="text-lg font-semibold text-custom-purple leading-snugish">
-                      top secret University  
+                    souk ahras University  
                                            </h3>
                       <p className="leading-normal text-gray-300 text-md">
                         2021 &ndash; 2024 | Computer Science
@@ -98,7 +98,6 @@ const Information = () => (
                       <li>CSS</li>
                       <li>JavaScript</li>
                       <li>React.js</li>
-                      <li>Vue.js</li>
                       <li>Bootstrap</li>
                       <li>Tailwind CSS</li>
                     </ul>
@@ -108,11 +107,9 @@ const Information = () => (
                       Back-End Development
                     </header>
                     <ul className="flex-wrap pb-4 mt-2 list-inside list-disc text-md text-white">
-                      <li>Node.js</li>
-                      <li>Express.js</li>
+                      <li>PHP</li>
                       <li>SQL</li>
                       <li>NoSQL</li>
-                      <li>Python</li>
                       <li>Java</li>
                     </ul>
                   </section>
@@ -122,13 +119,8 @@ const Information = () => (
                     </header>
                     <ul className="flex-wrap pb-4 mt-2 list-inside list-disc text-md">
                       <li>Git</li>
-                      <li>Webpack</li>
-                      <li>Docker</li>
                       <li>RESTful APIs</li>
-                      <li>GraphQL</li>
                       <li>Agile/Scrum</li>
-                      <li>Jira</li>
-                      <li>Postman</li>
                     </ul>
                   </section>
                   <section className="pb-0 mt-2 mb-2 break-inside-avoid">

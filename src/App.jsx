@@ -8,8 +8,9 @@ import Aboutme from './aboutme';
 import Projects from './projects';
 const App = () => {
   return (
+    
     <Router>
-    <div>
+    <div className='the_app_wrapper'>
     <div className="navbar-container">
         <Navbar />
       </div>
