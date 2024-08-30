@@ -5,6 +5,25 @@
   z-index: 2; /* Ensure it appears above */
 }
 
+
+
+/*
+.classbook{
+
+
+
+
+  padding: 37px 55px 27px;
+    position: relative;
+ 
+    background: -webkit-linear-gradient(top, #8fddff 0%, rgb(0, 0, 0) 8%) 0 57px;
+    background: -moz-linear-gradient(top, #fcf6fc 0%, rgb(0, 0, 0) 8%) 0 57px;
+    background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+} */
 .app-wrapper {
   z-index: 2;
   position: relative;

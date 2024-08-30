@@ -27,10 +27,12 @@ const Information = () => (
       <link href="./build.css" rel="stylesheet" />
       <title>Geoffrey Gallagher — Resume</title>
     </head>
-    <body>
+    <body >
       <main className="font-jost hyphens-manual">
+     
         <section className="p-3 my-auto mx-auto max-w-3xl  rounded-2xl border-4 border-indigo-400 sm:p-9 md:p-16 lg:mt-6 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o xsm:p-8 print:bg-white md:max-w-letter md:h-letter lg:h-letter">
-          <header className="inline-flex justify-between items-baseline mb-2 w-full align-top border-b-4 border-gray-300">
+           <div className='classbook'>  
+            <header className="inline-flex justify-between items-baseline mb-2 w-full align-top border-b-4 border-gray-300">
           
         
           </header>
@@ -138,8 +140,9 @@ const Information = () => (
                 </section>
               </section>
             </section>
-          </section>
+          </section></div>
         </section>
+        
       </main>
     </body>
   </html>
