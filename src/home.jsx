@@ -31,7 +31,7 @@ const Home = () => {
            <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400"> -Margaret Hamilton</cite>
     </blockquote>
           </p>
-          <button className="btn btn-secondary"    onClick={() => window.location.href = '/contactme'}>Get in touch +</button>
+          <button className="btn btn-secondary"    onClick={() => window.location.href = 'https://ayasportfolio.vercel.app/contactme'}>Get in touch +</button>
         </div>
       </div>
     </div>
