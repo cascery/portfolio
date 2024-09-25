@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileImage from "./profileimage.jsx";
 import julianImage from './assets/astronaut.png';
-
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="hero min-h-screen" style={{ margin: '0', padding: '0' }}>
@@ -31,8 +31,9 @@ const Home = () => {
            <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400"> -Margaret Hamilton</cite>
     </blockquote>
           </p>
-          <button className="btn btn-secondary"    onClick={() => window.location.href = 'https://ayasportfolio.vercel.app/contactme'}>Get in touch +</button>
-        </div>
+          <Link to="/contactme">
+  <button className="btn btn-secondary">Get in touch +</button>
+</Link>        </div>
       </div>
     </div>
   );

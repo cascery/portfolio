@@ -6,6 +6,7 @@ import ContactMe from './contactme';
 import Resume from './resume';
 import Aboutme from './aboutme';
 import Projects from './projects';
+import NotFound from './NotFound';
 const App = () => {
   return (
     
@@ -20,7 +21,7 @@ const App = () => {
         <Route path="/resume" element ={<Resume/> }/>
         <Route path="/about" element ={<Aboutme/> }/>
         <Route path="/projects" element ={<Projects/> }/>
-
+        <Route path="*" element={<NotFound />} />
 
       </Routes>
     </div>

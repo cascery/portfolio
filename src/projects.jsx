@@ -1,12 +1,46 @@
+/* eslint-disable no-unused-vars */
 import julianImage from './assets/astronaut.png';
 import avocatconnect from './assets/avocatconnect.png'
 import lucidlog from './assets/lucidlog.png'
 import echomatch from './assets/echomatch.png'
-
+import folder from './assets/folder.png';
+import EchoMatchContent from './EchomatchContent';
 import bunnybuddies from './assets/bunnybuddies.png'
 const Projects = () => {
+  
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen " >
+    <div className="flex flex-col justify-center items-center min-h-screen  " >
+
+
+
+{/* You can open the modal using document.getElementById('ID').showModal() method */}
+<dialog id="my_modal_3" className="modal">
+  <div className="modal-box p-0 max-w-5xl border border-black overflow-hidden">
+    <form method="dialog" className="bg-red-300 shadow-md border border-black flex items-center justify-between p-1 w-full">
+      <div className="flex items-center">
+        <img src={folder} alt="Julian Casablancas" className="w-8 mr-2" />
+        <span className="text-white">Project blah blah</span>
+      </div>
+      <button className="btn btn-sm btn-circle btn-ghost text-black">✕</button>
+    </form>
+
+    {/* Adjusted EchoMatchContent container */}
+    <div className="max-h-96 overflow-y-auto"> {/* Set max height and enable scrolling */}
+      <EchoMatchContent />
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+      
        <div className="hero-content flex-col lg:flex-row">
   
  
@@ -56,6 +90,8 @@ const Projects = () => {
         </div>
       </div>
       <div className="card bg-base-100 w-96 shadow-xl"
+
+      data-modal-target="static-modal" data-modal-toggle="static-modal"
       >      
         
         
@@ -107,7 +143,10 @@ const Projects = () => {
 
 
 
-      <div className="card bg-base-100 w-96 shadow-xl"
+      <div className="card bg-base-100 w-96 shadow-xl" 
+
+
+onClick={()=>document.getElementById('my_modal_3').showModal()}
       >      
         
         
@@ -135,7 +174,12 @@ const Projects = () => {
     
      
        </div>
-       <div style={{height:'200px'}}></div>
+       <div style={{height:'200px'}}>
+
+
+
+        
+       </div>
     </div>
   );
 };
