@@ -14,22 +14,22 @@ const EchoMatchContent = () => {
         <div className=' flex-col'>
 
 
-<div className="card lg:card-side bg-base-100 shadow-l m-3">
-  <figure>
+<div className=" rounded-xl card lg:card-side  shadow-l m-6 bg-red-50 shadow-xl border border-black">
+  <figure >
     <img
       src={echomatch}
-      style={{width: '50%',}}
+    
       alt="Album" />
   </figure>
-  <div className="card-body text-black">
+  <div className="card-body text-black bg-red-50 rounded-xl  ">
     <h2 className="card-title">ECHOMATCH</h2>
     <p>find similar songs to the one you have in mind,built using lastFm api and react native.</p>
     <div className="join join-vertical lg:join-horizontal">
   <button className="btn join-item ">
 
-  <FontAwesomeIcon icon={faLastfm}size="2x" /> 
+  <FontAwesomeIcon icon={faLastfm}size="2x"  style={{ color: '#510205' }}/> 
   </button>
-  <button className="btn join-item ">      <FontAwesomeIcon icon={faReact} size="2x" /> {/* Adjust size as needed */}</button>
+  <button className="btn join-item ">      <FontAwesomeIcon icon={faReact} size="2x"  style={{ color: '#510205' }}/> {/* Adjust size as needed */}</button>
   
 </div>
 
@@ -39,8 +39,8 @@ const EchoMatchContent = () => {
     </div>
   </div>
 </div>
-
-        <div className="carousel w-full">
+<div className="grid place-items-center">
+        <div className="carousel  w-11/12 m-3 rounded-xl card lg:card-side  shadow-l  bg-red-50 shadow-xl border border-black ">
         <div id="slide1" className="carousel-item relative w-full">
         <div className="mockup-phone border-primary">
   <div className="camera"></div>
@@ -82,7 +82,7 @@ const EchoMatchContent = () => {
           </div>
         </div>
        
-      </div>
+      </div> </div>
       
     </div>
     );
