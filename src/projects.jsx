@@ -78,13 +78,14 @@ const Projects = () => {
 
 </div>
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 min-w-full min-h-full">
 
 <div className="card bg-base-100 w-96 shadow-xl hover:bg-green-100 cursor-pointer hover:shadow-2xl hover:shadow-pink-500 transition-shadow duration-300 ease-in-out" onClick={()=>document.getElementById('my_modal_3').showModal()}>
   <figure className="px-10 pt-10">
     <img
       src={echomatch}
       alt="Shoes"
+      style={{width:"250px"}}
       className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center text-black">
@@ -98,12 +99,15 @@ const Projects = () => {
 <div className="card bg-base-100 w-96 shadow-xl hover:bg-red-100  cursor-pointer hover:shadow-2xl hover:shadow-pink-500 transition-shadow duration-300 ease-in-out" onClick={()=>document.getElementById('my_modal_4').showModal()}>
   <figure className="px-10 pt-10">
     <img
-      src={echomatch}
+      src={avocatconnect}
       alt="Shoes"
-      className="rounded-xl" />
+      className="rounded-xl" 
+      
+      style={{width:"150px"}}
+      />
   </figure>
   <div className="card-body items-center text-center text-black">
-    <h2 className="card-title">avocatconnect</h2>
+    <h2 className="card-title">AVOCATCONNECT</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions">
       <button className="btn btn-primary">github link</button>
@@ -113,12 +117,13 @@ const Projects = () => {
 <div className="card bg-base-100 w-96 shadow-xl hover:bg-purple-100  cursor-pointer hover:shadow-2xl hover:shadow-pink-500 transition-shadow duration-300 ease-in-out" onClick={()=>document.getElementById('my_modal_3').showModal()}>
   <figure className="px-10 pt-10">
     <img
-      src={echomatch}
+      src={lucidlog}
       alt="Shoes"
+      style={{width:"150px"}}
       className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center text-black">
-    <h2 className="card-title">Shoes!</h2>
+    <h2 className="card-title">LUCIDLOG</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions">
       <button className="btn btn-primary">github link</button>

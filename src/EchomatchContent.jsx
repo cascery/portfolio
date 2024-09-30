@@ -6,7 +6,7 @@ import avocatconnect from './assets/avocatconnect.png';
 import lucidlog from './assets/lucidlog.png';
 import echomatch from './assets/echomatch.png';
 import folder from './assets/folder.png';
-import p1 from './assets/7.png';
+import p1 from './assets/sc.png';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const EchoMatchContent = () => {
@@ -40,7 +40,8 @@ const EchoMatchContent = () => {
   </div>
 </div>
 <div className="grid place-items-center">
-        <div className="carousel  w-11/12 m-3 rounded-xl card lg:card-side  shadow-l  bg-red-50 shadow-xl border border-black ">
+        <div className="carousel  w-11/12 m-3 rounded-xl card lg:card-side
+          shadow-l  bg-red-50 shadow-xl border border-black ">
         <div id="slide1" className="carousel-item relative w-full">
         <div className="mockup-phone border-primary">
   <div className="camera"></div>
@@ -59,7 +60,7 @@ const EchoMatchContent = () => {
   <div className="display">
     <div className="artboard artboard-demo phone-1">
 
-<img src={p1} alt=""          className="w-4/5 h-auto"/>
+<img src={p1} alt=""          className=""/>
 
     </div>
   </div>

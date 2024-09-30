@@ -7,25 +7,74 @@ import Resume from './resume';
 import Aboutme from './aboutme';
 import Projects from './projects';
 import NotFound from './NotFound';
+
 const App = () => {
   return (
-    
     <Router>
-    <div className='the_app_wrapper'>
-    <div className="navbar-container">
-        <Navbar />
-      </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contactme" element={<ContactMe />} />
-        <Route path="/resume" element ={<Resume/> }/>
-        <Route path="/about" element ={<Aboutme/> }/>
-        <Route path="/projects" element ={<Projects/> }/>
-        <Route path="*" element={<NotFound />} />
+      <div className='the_app_wrapper'>
+        <Routes>
+          {/* Routes where the Navbar is shown */}
+          <Route
+            path="/"
+            element={
+              <>
+                <div className="navbar-container">
+                  <Navbar />
+                </div>
+                <Home />
+              </>
+            }
+          />
+          <Route
+            path="/contactme"
+            element={
+              <>
+                <div className="navbar-container">
+                  <Navbar />
+                </div>
+                <ContactMe />
+              </>
+            }
+          />
+          <Route
+            path="/resume"
+            element={
+              <>
+                <div className="navbar-container">
+                  <Navbar />
+                </div>
+                <Resume />
+              </>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <>
+                <div className="navbar-container">
+                  <Navbar />
+                </div>
+                <Aboutme />
+              </>
+            }
+          />
+          <Route
+            path="/projects"
+            element={
+              <>
+                <div className="navbar-container">
+                  <Navbar />
+                </div>
+                <Projects />
+              </>
+            }
+          />
 
-      </Routes>
-    </div>
-  </Router>
+          {/* Route where the Navbar is hidden (404 NotFound page) */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
